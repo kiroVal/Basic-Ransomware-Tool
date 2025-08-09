@@ -1,7 +1,7 @@
 # Basic-Ransomware-Tool
-Simple project for my subject COMSEC2 elective. It detects whether a file has been added or been modified. I used flask only, It also comes with a simple user-friendly UI.
+<p align="justify"> For my COMSEC2 elective project, I developed a simple ransomware detection tool using Flask, a lightweight Python web framework ideal for building small, fast, and flexible applications. The tool monitors files to detect when they are added or modified and presents the results through a simple, user-friendly interface. Flask’s minimal design and seamless integration with Python make it perfect for quickly developing and demonstrating this type of security solution. </p>
 
-""How to run:""
+**How to run:**
 
 Step 1: Fork this repository to your own.
 
@@ -11,7 +11,8 @@ Step 3. Open "cd ./ransomware_detection_py/" in the terminal to have access in t
 
 Step 4. Type "python app.py", and then a port will open for you.
 
-""How to test:""
+**How to test:**
+
 Since this is just a simple tool application, you'll be adding the files manually to test it. (Disclaimer, this is for a simple school project).
 
 Step 1. In your codespace go to files on the left side of the codespace.
