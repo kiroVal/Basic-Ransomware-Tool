@@ -14,8 +14,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy project files
 COPY . /app/
 
-# Expose the port the app will run on
+# Expose Flask port
 EXPOSE 5000
 
-# Run the app (ensure app.py runs on host 0.0.0.0)
-CMD ["python", "ransomware_detection_py/app.py"]
+# Run the Flask app
+CMD ["python", "app.py"]
